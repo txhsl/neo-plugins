@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mono.Cecil" Version="0.10.0" />
+    <PackageReference Include="Neo" Version="2.9.2" />
+    <PackageReference Include="Neo.Compiler.MSIL" Version="2.3.0.9" />
+    <PackageReference Include="System.IO.FileSystem.Primitives" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
