@@ -19,7 +19,6 @@ namespace Neo.Plugins
         }
         public JObject OnProcess(HttpContext context, string method, JArray _params)
         {
-            Console.WriteLine(method);
             switch (method)
             {
                 case "lockwallet":
